@@ -5,7 +5,7 @@ This project how the browser opened by Cypress cannot connect to the Firestore e
 ## Running
 
 1. Start the emulators: `yarn emulators`
-1. In a new terminal window, seed the emulated datbases with data: `scripts/seeddb.js`
+1. In a new terminal window, seed the emulated datbases with data: `yarn seed` (calls `scripts/seeddb.js`)
 1. Start the app by running: `yarn start`
 1. Visit `localhost:3000` in your browser - notice that data loads from both emulated databases
 1. In another terminal window, open the test runner by running: `yarn test`
